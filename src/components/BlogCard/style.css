@@ -1,0 +1,27 @@
+.blog-card{
+    margin-left: 20px;;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-card-edit{
+    margin-right: 20px;
+    width: 100px;
+}
+
+.title-date-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.edit-form-card{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.edit-blog-heading{
+    margin-bottom: 10px;
+}

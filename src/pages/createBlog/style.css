@@ -1,0 +1,23 @@
+.create-blog-card{
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    padding: 20px 30px;
+}
+
+.register-whole-card{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-cont{
+    width: 100%;
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+}
