@@ -11,7 +11,7 @@ const Users = () => {
         let token = localStorage.getItem("jwtToken");
         
         if(token){
-            axios.get(`http://localhost:8000/user/get-all-users`, {
+            axios.get(`${process.env.REACT_APP_BACKEND_URL}/user/get-all-users`, {
                 headers: {
                     'x-blog': token,
                 }
